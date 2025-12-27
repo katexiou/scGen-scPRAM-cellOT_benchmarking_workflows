@@ -1,6 +1,6 @@
 # Single-Cell Perturbation Prediction Benchmarking
 
-This repository provides end-to-end Jupyter notebooks for benchmarking **scGen**, **scPRAM**, and **CellOT / Mean Delta** on single-cell perturbation prediction in two complementary settings:
+This repository provides end-to-end Jupyter notebooks for benchmarking **scGen**, **scPRAM**, and **CellOT** on single-cell perturbation prediction in two complementary settings:
 
 - **Internal benchmarking on the Kang IFN-β dataset** (leave-one-cell-type-out within-study evaluation)
 - **Cross-study extrapolation from Kang → Dong**, using both **scVI** and **Scanorama** integration to assess how batch correction influences perturbation prediction.
