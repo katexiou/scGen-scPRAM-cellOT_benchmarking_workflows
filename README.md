@@ -11,16 +11,12 @@ All workflows share a unified evaluation stack (R², Pearson, MSE, energy distan
 
 ## Contents
 
-- `scgen_benchmarking.ipynb`  
+- `scGen_benchmarking_workflow.ipynb`  
   Internal and cross-study benchmarking of **scGen**.
-- `scpram_benchmarking.ipynb`  
+- `scPRAM_benchmarking_workflow.ipynb`  
   Internal and cross-study benchmarking of **scPRAM**.
-- `cellot_benchmarking.ipynb`  
+- `cellOT_benchmarking_workflow.ipynb`  
   Internal and cross-study benchmarking of **CellOT / Mean Delta** baselines.
-- `results/`  
-  Collected CSV outputs from all benchmark runs (per-method, per-integration, per-scenario).
-- `plots/` or `cross_study_plots/`  
-  Summary visualizations (barplots, scatter plots, heatmaps, faceted multi-metric comparisons).
 - `README.md`  
   This file.
 
@@ -150,14 +146,14 @@ Aggregated summaries (CSV + plots) are generated for:
 
 ---
 
-## Data & Assumptions
+## Available Data
 
 - **Kang dataset**: PBMC IFN-β stimulation with multiple annotated cell types.
 - **Dong dataset**: Independent IFN-β perturbation dataset used as a cross-study target.
-- Both datasets are assumed to be preprocessed into `.h5ad` files with at least:
+- Both datasets are preprocessed into `.h5ad` files with at least:
   - `obs['cell_type']`
   - `obs['perturbation']` (e.g. `ctrl`, `IFNb`)
-  - `obs['batch']` or dataset origin
+  - `obs['batch']`
 - Integration-specific notebooks assume access to:
   - **scVI-tools** for scVI integration.
   - **Scanorama** for Scanorama integration.
@@ -250,7 +246,7 @@ Plus multiple PNGs summarizing visualizations.
 
 ## Citation
 
-If you use these workflows, please cite the original methods and datasets, e.g.:
+If you use these workflows, please cite the original methods and datasets:
 
 - Lotfollahi et al., scGen: Generative modeling and latent space arithmetic for single-cell perturbation responses.
 - Lopez et al., scVI: A deep generative model for single-cell transcriptomics.
