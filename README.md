@@ -180,7 +180,7 @@ Check each notebook’s first cell for the exact versions and dependencies.
 
 3. **Data Availability**
 
-Pre-computed results and processed datasets are available on Zenodo: [DOI: XXX/zenodo.XXXXXXX]
+Pre-computed results and processed datasets are available on Zenodo: 10.5281/zenodo.18072102
 
 ### Zenodo Contents
 
@@ -240,7 +240,7 @@ These files allow users to reproduce the final comparison and visualizations wit
 - `cross_study_detailed_comparison.csv`
 - `cross_study_rankings.csv`
 
-Plus multiple PNGs summarizing visualizations.
+Plus multiple PNGs and TSVs summarizing visualizations and tables.
 
 ---
 
