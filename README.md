@@ -180,7 +180,7 @@ Check each notebook’s first cell for the exact versions and dependencies.
 
 3. **Data Availability**
 
-Pre-computed results and processed datasets are available on Zenodo: 10.5281/zenodo.18072102
+Pre-computed results and processed datasets are available on Zenodo: [10.5281/zenodo.18072102](https://doi.org/10.5281/zenodo.18072102)
 
 ### Zenodo Contents
 
